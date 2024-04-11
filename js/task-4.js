@@ -19,7 +19,6 @@ const getShippingCost = function (country) {
       price = false;
       break;
   }
-
   const result = price
     ? `Shipping to ${validateCountry} will cost ${price} credits`
     : 'Sorry, there is no delivery to your country';
